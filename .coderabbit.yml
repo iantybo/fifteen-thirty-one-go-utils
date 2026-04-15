@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+
+language: en-US
+
+knowledge_base:
+  linked_repositories:
+    - repository: iantybo/fifteen-thirty-one-go
+      instructions: >-
+        Cribbage game server and WebSocket/API runtime that consumes this module.
+        Changes to pkg/cards or scoring APIs may require coordinated updates there.
